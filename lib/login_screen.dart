@@ -80,7 +80,7 @@ Future<void> _authenticate() async {
     String message = "Something went wrong.";
     if (e is FirebaseAuthException) {
       if (e.code == 'user-not-found') {
-        message = "No user found for that email.";
+        message = "No user found for that email. Please register";
       // ignore: curly_braces_in_flow_control_structures
       } else if (e.code == 'wrong-password') message = "Wrong password.";
       // ignore: curly_braces_in_flow_control_structures
