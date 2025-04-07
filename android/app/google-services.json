@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "759607645751",
+    "project_id": "mad-profile-auth",
+    "storage_bucket": "mad-profile-auth.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759607645751:android:d0ca6aaa4a68837c07d1b2",
+        "android_client_info": {
+          "package_name": "com.example.profile_auth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCl5NWOJ4W8Wk6quLYeb8xxtKzieRCSlbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
