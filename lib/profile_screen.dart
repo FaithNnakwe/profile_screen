@@ -10,15 +10,18 @@ class ProfileScreen extends StatelessWidget {
     final user = _auth.currentUser;
 
     return Scaffold(
+      backgroundColor: Color(0xFFD0E1F9),
       appBar: AppBar(title: Text("Profile")),
-      body: Padding(
-        padding: const EdgeInsets.all(20.0),
+      body: Center(
+        child: Padding(
+          padding: const EdgeInsets.all(20.0),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,  // Centers the content horizontally
           children: [
             Text(
               "Welcome, ${user?.email ?? 'User'}!",
-              style: TextStyle(fontSize: 20),
+              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 20),
             ElevatedButton(
@@ -77,6 +80,7 @@ class ProfileScreen extends StatelessWidget {
             ),
           ],
         ),
+      ),
       ),
     );
   }
